@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="../share.css">
+    <link rel="stylesheet" href="start-hosting.css">
+
+
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <div class="background"></div>
+    <header class="main-header">
+        <div class="first-div">
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+            <a href="../index.html" class="main-header__a">
+                <img class="image" src="../images/over.png" alt="uHost - your mony making shit">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav-itmes">
+                <li class="main-nav-itmes">
+                    <a href="../packages/index-packages.html"> Packages</a>
+                </li>
+                <li class="main-nav-itmes">
+                    <a href="../customers/index-customers.html">Customers</a>
+                </li>
+                <li class="main-nav-itmes main-nav-itmes__cta">
+                    <a href="index-start-hosting.html">Start Hosting</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="../packages/index-packages.html">Packages</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="../customers/index-customers.html">Customers</a>
+            </li>
+            <li class="mobile-nav__item mobile-nav__item--cta">
+                <a href="../start-hosting/index-start-hosting.html">Start Hosting</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="signup-page">
+      <h1 class="signup-title">Let's Start right away !</h1>
+      <form action="index-start-hosting.html" class="signup-form">
+            <label for="title">Title</label>
+            <select id="title" class="invalid">
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option >
+            </select>
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name" required>
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" required>
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+            <div class="signup-form__chexbox">
+                <input type="checkbox" id="agree-terms" required>
+                <label for="agree-terms">Agree to
+                    <a href="#">Terms &amp; Conditions</a>
+                </label>
+            </div>
+
+            <button type="submit" class="button">Sign UP</button>
+      </form>
+      
+    </main>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link" >
+                    <a href="#">Support</a>
+                </li>
+                <li  class="main-footer__link">
+                    <a href="#">Terms of Use</a>  
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../shared.js"></script>
+</body>
+</html>
